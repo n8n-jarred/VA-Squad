@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env / secrets (never commit API keys)
+.env
+.env.local
+.env.*.local
+*.key
+secrets/
+
+# Dependency dirs (not needed, but safe to have)
+node_modules/
